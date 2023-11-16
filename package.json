@@ -1,16 +1,13 @@
 {
-  "homepage":"https://micrandr.github.io/react-route-contacts/",
-  "name": "react-routex",
+  "name": "react-route-contacts",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
+  "scripts": {    
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "preview": "vite preview"    
   },
   "dependencies": {
     "localforage": "^1.10.0",
